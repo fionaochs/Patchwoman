@@ -1,12 +1,16 @@
 import React from 'react';
-import Form from './Form/Form';
-import Header from './Header/Header';
+// import Form from './Form/Form';
+// import Header from './Header/Header';
+import Container from '../../Container/Container';
+// import History from '../History/History';
 
 export default function App() {
   return (
     <>
-      <Header />
-      <Form />
+      <Container /> 
+      {/* <Header /> */}
+      {/* <Form /> */}
+      {/* <History /> */}
     </>
   );
 }
