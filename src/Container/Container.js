@@ -7,7 +7,6 @@ const Container = () => {
   const [link, setLink] = useState('');
   const [history, setHistory] = useState([]);
 
-
   const onChange = ({ target }) => {
     if(target.name === 'method') setMethod(target.value);
     if(target.name === 'link') setLink(target.value);
