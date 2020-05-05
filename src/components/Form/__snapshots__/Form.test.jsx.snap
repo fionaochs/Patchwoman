@@ -19,13 +19,16 @@ exports[`Form matches a snapshot 1`] = `
       value="http://musicbrainz.org/ws/2/artist?query=nahko&fmt=json&limit=25"
     />
     <button
-      className="tealButton"
+      className="button"
     >
       Send
     </button>
   </div>
-  <section>
+  <section
+    className="buttons"
+  >
     <RadioButtonGroup
+      className="buttons"
       name="method"
       onChange={[Function]}
     >

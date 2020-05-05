@@ -44,7 +44,7 @@ exports[`RequestHistory matches a snapshot 1`] = `
       />
     </li>
     <button
-      className="tealButton"
+      className="button"
       onClick={[Function]}
     >
       Clear History
