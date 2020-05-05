@@ -1,0 +1,12 @@
+.Header {
+  background-color: #54bf9f;
+  color: #140567;
+  font-family: 'Volkkorn', sans-serif;
+  font-weight: bold;
+  display: flex;
+  justify-content: center;
+  margin: 0 auto;
+  padding: .8rem 4rem;
+  font-size: 2.4rem;
+  letter-spacing: 0.05rem;
+}

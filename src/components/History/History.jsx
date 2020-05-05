@@ -1,27 +1,35 @@
 import React from 'react';
-import propTypes from 'prop-types';
-import HistoryItem from './HistoryItem';
+import PropTypes from 'prop-types';
+import HistoryItem from './HistoryItem.jsx';
+import { weakKey } from '../../utilities/weakKey.jsx';
+import styles from './History.css';
 
-const History = ({ history }) => {
-
-  const historyListItems = history.map(historyItem => (
-    <li key={historyItem}>
-      <HistoryItem {...historyItem} />
+const History = ({ requests, onClick, onDelete }) => {
+  const requestElements = requests.map(request => (
+    <li key={weakKey(request)}>
+      <HistoryItem {...request} onClick={() => onClick(request)} />
     </li>
   ));
-
+  
   return (
-    <div>
-      <h2>History</h2>
-      <ul>
-        {historyListItems}
+    <div className={styles.HistoryBox}>
+      <ul className={styles.History}>
+        {requestElements}
+        <button className={styles.tealButton} onClick={onDelete}>Clear History</button>
       </ul>
     </div>
   );
 };
 
 History.propTypes = {
-  history: propTypes.array.isRequired
+  onClick: PropTypes.func.isRequired,
+  onDelete: PropTypes.func.isRequired,
+  requests: PropTypes.arrayOf(PropTypes.shape({
+    method: PropTypes.string.isRequired,
+    url: PropTypes.string.isRequired,
+    body: PropTypes.string,
+  }))
 };
 
 export default History;
+

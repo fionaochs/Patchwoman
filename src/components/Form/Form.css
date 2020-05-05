@@ -1,0 +1,96 @@
+.tealButton {
+  background-color: #140567;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: bold;
+  font-size: 1rem;
+  color: white;
+  border-radius: .3rem;
+  border: none;
+  height: 2.5rem;
+  width: 7.3rem;
+  margin-left: 3em;
+  box-shadow: 3px 3px 5px 1px rgb(157, 170, 187);
+  letter-spacing: 0.02rem;
+}
+
+.Form {  
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  height: 45%;
+
+  h2 {
+    font-size: 1.5em;
+    margin: 0;
+  }
+
+  div, section {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+  }
+
+  input[type="text"] {
+    width: 100%;
+    max-width: 60rem;
+    font-size: 0.8rem;
+    padding-left: 1rem;
+    height: 2.2rem;
+    background-color: #d6eaf7;
+  }
+
+  textarea {
+    height: 5rem;
+    font-size: 0.8rem;
+    padding: 1rem;
+    background-color: #d6eaf7;
+    font-weight: 400;
+    width: 100%;
+  }
+
+  input[type="radio"] {
+    display: none;
+  }
+
+  input[type="radio"]:checked + label {
+    background-color: #d6eaf7;
+    background-color: #d6eaf7;
+    background-color: #d6eaf7;
+    background-color: #d6eaf7;
+    background-color: #d6eaf7;
+}
+
+  label:hover {
+    background-color: #4238c4;
+  }
+
+  label {
+    text-transform: uppercase;
+    font-size: 1.2rem;
+    color: white;
+    line-height: 2.8em;
+    height: 2.8em;
+    vertical-align: middle;
+    text-align: center;
+    background-color: #140567;
+    border-radius: .3rem;
+    margin-right: 2.4rem;
+    width: 8rem;
+    min-width: 4.8rem;
+  }
+
+  label:last-of-type {
+    margin-right: 0;
+  }
+
+  button:hover {
+    background-color: #4238c4;
+  }
+
+  button, label {
+    cursor: pointer;
+  }
+}

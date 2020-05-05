@@ -1,0 +1,50 @@
+.tealButton {
+  background-color: #140567;
+  font-family: 'Volkkorn', sans-serif;
+  font-weight: bold;
+  font-size: 1rem;
+  color: white;
+  border-radius: .3rem;
+  border: none;
+  height: 2.5rem;
+  width: 10rem;
+  margin-top: 2rem;
+  letter-spacing: 0.02rem;
+}
+.HistoryBox {
+  display: flex;
+  flex-direction: row;
+}
+.History {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 45%;
+  height: 50vh;
+  
+  button, li {
+    cursor: pointer;
+  }
+
+  button:hover {
+    background-color: #4238c4;
+    cursor: pointer;
+  }
+
+  h3 {
+    font-weight: 300;
+  }
+
+  li {
+    list-style-type: none;
+    margin: 1rem 0;
+    vertical-align: middle;
+    padding: 1rem 1.5rem;
+    border-radius: .3rem;
+    background-color: #d6eaf7;
+    min-height: 6em;
+    min-width: 20em;
+    width: 80%;
+  }
+}

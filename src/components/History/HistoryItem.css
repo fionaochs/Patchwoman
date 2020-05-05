@@ -1,0 +1,12 @@
+.HistoryItem {
+  h3 {
+    text-transform: uppercase;
+    color: white;
+    margin: 0 auto;
+  }
+
+  p {
+    font-weight: 400;
+    font-size: 0.8rem;
+  }
+}
