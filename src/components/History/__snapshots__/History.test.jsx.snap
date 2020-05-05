@@ -1,0 +1,54 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`RequestHistory matches a snapshot 1`] = `
+<div
+  className="HistoryBox"
+>
+  <ul
+    className="History"
+  >
+    <li
+      key="weak-key-0"
+    >
+      <HistoryItem
+        method="post"
+        onClick={[Function]}
+        url="https://jsonplaceholder.typicode.com/posts"
+      />
+    </li>
+    <li
+      key="weak-key-1"
+    >
+      <HistoryItem
+        method="get"
+        onClick={[Function]}
+        url="https://jsonplaceholder.typicode.com/posts"
+      />
+    </li>
+    <li
+      key="weak-key-2"
+    >
+      <HistoryItem
+        method="put"
+        onClick={[Function]}
+        url="https://jsonplaceholder.typicode.com/posts"
+      />
+    </li>
+    <li
+      key="weak-key-3"
+    >
+      <HistoryItem
+        method="put"
+        onClick={[Function]}
+        url="https://jsonplaceholder.typicode.com/posts"
+      />
+    </li>
+    <button
+      className="tealButton"
+      onClick={[Function]}
+    >
+      Clear History
+    </button>
+  </ul>
+</div>
+`;

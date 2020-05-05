@@ -1,0 +1,18 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`RadioButton matches a snapshot 1`] = `
+<Fragment>
+  <input
+    id="get"
+    name="method"
+    onChange={[Function]}
+    type="radio"
+    value="get"
+  />
+  <label
+    htmlFor="get"
+  >
+    get
+  </label>
+</Fragment>
+`;
