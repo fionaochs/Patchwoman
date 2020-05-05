@@ -1,24 +1,26 @@
-.tealButton {
+.button {
   background-color: #140567;
   font-family: 'Open Sans', sans-serif;
   font-weight: bold;
   font-size: 1rem;
   color: white;
   border-radius: .3rem;
+  margin: auto;
   border: none;
   height: 2.5rem;
   width: 7.3rem;
   margin-left: 3em;
-  box-shadow: 3px 3px 5px 1px rgb(157, 170, 187);
-  letter-spacing: 0.02rem;
 }
-
+.buttons {
+  margin: 10px 5px 10px 5px;
+}
 .Form {  
   display: flex;
   flex-direction: column;
   justify-content: space-around;
   align-items: center;
   height: 45%;
+  margin: 5px 5px 5px 5px;
 
   h2 {
     font-size: 1.5em;

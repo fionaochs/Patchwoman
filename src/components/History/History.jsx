@@ -15,7 +15,7 @@ const History = ({ requests, onClick, onDelete }) => {
     <div className={styles.HistoryBox}>
       <ul className={styles.History}>
         {requestElements}
-        <button className={styles.tealButton} onClick={onDelete}>Clear History</button>
+        <button className={styles.button} onClick={onDelete}>Clear History</button>
       </ul>
     </div>
   );

@@ -1,4 +1,4 @@
-.tealButton {
+.button {
   background-color: #140567;
   font-family: 'Volkkorn', sans-serif;
   font-weight: bold;
@@ -8,7 +8,6 @@
   border: none;
   height: 2.5rem;
   width: 10rem;
-  margin-top: 2rem;
   letter-spacing: 0.02rem;
 }
 .HistoryBox {

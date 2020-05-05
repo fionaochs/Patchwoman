@@ -23,10 +23,10 @@ const Form = ({
           value={url}
           onChange={onChange}
           placeholder="URL" />
-        <button className={styles.tealButton}>{buttonText}</button>
+        <button className={styles.button}>{buttonText}</button>
       </div>
-      <section>
-        <RadioButtonGroup name="method" onChange={onChange}>
+      <section className={styles.buttons} >
+        <RadioButtonGroup className={styles.buttons} name="method" onChange={onChange}>
           <RadioButton value="get" />
           <RadioButton value="post" />
           <RadioButton value="put" />
