@@ -1,8 +1,9 @@
 .Header {
-  background-color: #54bf9f;
-  color: #140567;
+  background-color: #1c4669;
+  color: #b7acf7;
   font-family: 'Volkkorn', sans-serif;
   font-weight: bold;
+  font-style: italic;
   display: flex;
   justify-content: center;
   margin: 0 auto;
